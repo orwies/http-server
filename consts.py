@@ -24,5 +24,5 @@ CONTENT_TYPE_MAP = {
 
 UPLOAD_DIR = WEB_ROOT_DIR + '\\uploads\\'
 
-REDIRECT_ROUTES = {'/': DEFAULT_URL, '\\index2.html': DEFAULT_URL}
+REDIRECT_ROUTES = {'/': DEFAULT_URL, '//index2.html': DEFAULT_URL}
 FORBIDDEN_PAGES_LIST = ['\\empty.html', '\\notfound.html', '\\error500.html']
